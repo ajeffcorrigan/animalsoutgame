@@ -1,27 +1,30 @@
 package com.ajeffcorrigan.game.animalsoutgame;
 
-import com.badlogic.gdx.ApplicationAdapter;
+import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class AnimalsOutGame extends ApplicationAdapter {
-	SpriteBatch batch;
-	Texture img;
+public class AnimalsOutGame extends Game {
+	
+	private boolean assetsInit = false;					//Checks if assets have loaded. 
+	public static final boolean DEBUGON = true;			//Turn debugging on or off.
+	public OrthographicCamera camera;					
+	public SpriteBatch batch;
+	
+	public static int gh;								//Game height.
+	public static int gw;								//Game width.
 	
 	@Override
 	public void create () {
+		//Initialize public objects and variables.
+		gw = Gdx.graphics.getWidth();					//Get graphics width.
+		gh = Gdx.graphics.getHeight();					//Get graphics height.
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
-	}
-
-	@Override
-	public void render () {
-		Gdx.gl.glClearColor(1, 0, 0, 1);
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		batch.begin();
-		batch.draw(img, 0, 0);
-		batch.end();
+		
+		//Initialize and setup the camera.
+		camera = new OrthographicCamera();
+		camera.setToOrtho(false,gw,gh);
+		
 	}
 }
