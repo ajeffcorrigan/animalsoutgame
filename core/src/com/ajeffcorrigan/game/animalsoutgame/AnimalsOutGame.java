@@ -1,13 +1,13 @@
 package com.ajeffcorrigan.game.animalsoutgame;
 
-import com.badlogic.gdx.Game;
+import com.ajeffcorrigan.game.animalsoutgame.tools.GameScreenManager;
+import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class AnimalsOutGame extends Game {
+public class AnimalsOutGame extends ApplicationAdapter {
 	
-	private boolean assetsInit = false;					//Checks if assets have loaded. 
 	public static final boolean DEBUGON = true;			//Turn debugging on or off.
 	public OrthographicCamera camera;					
 	public SpriteBatch batch;
@@ -15,7 +15,8 @@ public class AnimalsOutGame extends Game {
 	public static int gh;								//Game height.
 	public static int gw;								//Game width.
 	
-	@Override
+	public GameScreenManager gsm;
+	
 	public void create () {
 		//Initialize public objects and variables.
 		gw = Gdx.graphics.getWidth();					//Get graphics width.
@@ -25,6 +26,11 @@ public class AnimalsOutGame extends Game {
 		//Initialize and setup the camera.
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false,gw,gh);
-		
+				
 	}
+	
+	static enum GameState {
+		title, activegame, pausegame, endgame
+	}
+	
 }
