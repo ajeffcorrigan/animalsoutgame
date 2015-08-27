@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" backgroundcolor="#000000" nextobjectid="1">
+ <tileset firstgid="1" name="roguelikeSheet_transparent" tilewidth="16" tileheight="16" spacing="1" tilecount="1767">
+  <image source="roguelikeSheet_transparent.png" width="968" height="526"/>
+ </tileset>
+ <layer name="Floor" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2V1SgzAUhmGGrtVO1Q3o1qy6nm6AequdMVN6epKe/FGavM9MLnQIgfMVEmAYsEaHex8ALhyUFrOttS/SyJrG1ppsyir5eyebMkrXkEzS1fxNk0lYaE6umQm56Hx1+RqHYT+ea7cfL9v3GO4nm2VdxjrNf97TXw1fNufmauT+Pnrq/jNe93H9JpFhzNq6F6E8njaXTf5+53m59iq2nfeXeYTG17brJRvtHE+1ex/8bSvycTXfzf4v+/jyiKlxD5mk5PEmmrx2tD5aHr7xbx1vy5lo5xebh8wlNo+UTFoma3Ic9XWVW1v58phnos31ofFTjrl1ljl7MuahzfWhcVOOtRdybSTXSaE8ptnzxrzfrnAeOf0eya37uSUPy37kmCnH1EseIbF5WGqWug15+J/NtXnbkkfuNdR6JrfO71mZ40PztuW9SM5x9Z7H1jPPh+btErXsMQ/L/eXj/76kOf3/M+I5PPb9lXW/LbDOve760ITWtXL/Me93S9zvHlHOucXO3XLb1O8fredRIpOUljNmy2q9Py1Vf22/PahxrQxD+fr1kocT+5y99FqotzzmcucB8liPWnUjjzTksR41a0YecWrXizzslqgVedjfK5HHsny5LFkj8rhW612IdWzo7pEJedgskcs9rsdHV/OaIYs8vGtfp1LXDHmUl/OtkDyWEfOtBcuo+c0dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEr6BalQimg=
+  </data>
+ </layer>
+ <layer name="Carpet" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENg0AMBVArRxuyF2sxBmSrEGAbKE8URCcRXcF70u9cWHZhRwAAAAAAcEdDihizvFPtju7ts89/yvK1j6qeTUSb5dXU7gjq6R7/radMXzjf0nqAqxzvwbz/t0uWNZ3Xc63jPfi1D/cDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiNk4sE4A=
+  </data>
+ </layer>
+ <layer name="Objects" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1U1Kw0AYBuBJvUQRLHTlFfQm9ggue4UuLXgD0VWvYaGg4AnsuhfplEYacCaTYKSLPg+8fPMbhkAyIQAAAMBvd1UIL7F+hWMNjVqyq451FvMw+Mku07x+p1fVaex2dGq/ZeqPm5hJHf5uUZjfZuoysfZ5kBPRxWqUHt/EPFbpOforfR9dXMeMB3gO3bw3wv96LfQPPmI+Y+7r/9JTZn1qL/18F/oH60ba9qf2AnB5cveze/s8mvfzNDMOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbfYkoh2w
+  </data>
+ </layer>
+ <layer name="Details" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztziEBACAMAMEBMchICZJTYGJuiDvz9iMAAAAgt0deoObM7gMq7uo+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH7zAKpOAUk=
+  </data>
+ </layer>
+</map>
