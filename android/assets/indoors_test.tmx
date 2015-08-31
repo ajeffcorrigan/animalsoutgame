@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="32" height="32" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="roguelikeSheet_transparent" tilewidth="16" tileheight="16" spacing="1" tilecount="1767">
+  <image source="roguelikeSheet_transparent.png" width="968" height="526"/>
+ </tileset>
+ <layer name="Ground Outside" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7DC/H8VXB8jgfSSqqqqqq8P12tcHw==
+  </data>
+ </layer>
+ <layer name="House Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEKgDAQRNFhAymiJ/Y6OVCMXkjEQkiRVCtB/oPpFn61EgAAADCnw6R9sNP8+ilI22D3jWc/x/7o0/9rfwnvn1d7eqX5/9Wx30rfpdxcw0kzFg==
+  </data>
+ </layer>
+ <layer name="House Inside Floor" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzTEKACAMwMBAXdX/o/7VPsGtCDnIHJAkSZIkvVgBOztR8+8NRjZbzV9/u6EaAhQ=
+  </data>
+ </layer>
+ <layer name="House Objects" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBaNgFBACzYyo/EV0tHs/FrEdUExrcBCIs4B+zwbiQ3SwDxc4gEWsnt6OGACgBQz3FEbC6kbBKCAGAAAIxgd/
+  </data>
+ </layer>
+</map>

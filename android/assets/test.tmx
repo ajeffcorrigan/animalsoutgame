@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="square_nodetails_outline" tilewidth="32" tileheight="32" tilecount="2048">
+  <image source="square_nodetails_outline.png" width="1024" height="2048"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2cGNwyAUBUB6SWk+bGMuxYWtkEB6i4hzCawPM9KXscWJFww4pfA0r1Y8x6u8z+VnUqxzRTtzOVrl+I/3fN/V6mj3Z6vMpJS/+chkrbtM+vw5or881rrKPJN8nuSx1jW0Z2V+7NPHO6u06xntd/OF76rjm+t3b1dn9JHDHn2cxz1VlXnkc9bpv/3Z2S/3t+bHHnW8795HOUdYr+bR1+s78tij5/Epk9xjsc64RuSZI9fwY+jDOuMZb3YelMded+fuMR/W8+32mfz3BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/fgHIwUog
+  </data>
+ </layer>
+</map>
